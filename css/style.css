@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --lg-1:#F4F6F9;
+    --gris-clair: #cbd0d8;
+    --dg-2: #646C77;
+    --dg-3: #424953;
+    --rouge: #ec5564;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    background: var(--lg-1);
+    padding-bottom: 8rem;
+}
+
+h2 {
+    margin-top: 8rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.surlignage {
+    color: #5E9CEA;
+    font-weight: 600;
+}
+
+
+.site-title {
+    padding: 3rem 0 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+
+.balise {
+    padding: 2rem 3rem;
+    margin: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 90px -20px rgb(0 0 0 / 25%);
+}
+
+.balise-name {
+    font-size: 2rem;
+    color: var(--gris-clair);
+}
+
+.balise-description {
+    color: var(--dg-3);
+    font-size: 1.2rem;
+}
+
+.attribut {
+    color: var(--rouge);
+    margin-top: 1rem;
+}
+
+.attribut-description {
+    color: var(--dg-3);
+}
+
+.exemple {
+    color: var(--dg-2);
+}
+
+.dessin {
+    width: 96%;                  /* trouver un meilleur truc !*/
+    border-radius: 2rem;
+    margin:1.5rem;
+}
